@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "docker-compose": "docker-compose -f dev/compose.yml"
+  },
   "devDependencies": {
     "@nx/esbuild": "19.0.2",
     "@nx/eslint": "19.0.2",

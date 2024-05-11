@@ -1,0 +1,9 @@
+services:
+  web-server:
+    build:
+      context: ..
+      dockerfile: apps/web-server/Dockerfile
+      network: host
+    image: stitch-it/web-server
+    ports:
+      - 3000:3000

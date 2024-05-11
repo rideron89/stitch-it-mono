@@ -7,22 +7,16 @@
   "targets": {
     "build": {
       "executor": "@nx/esbuild:esbuild",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
         "platform": "node",
         "outputPath": "dist/apps/web-server",
-        "format": [
-          "cjs"
-        ],
+        "format": ["cjs"],
         "bundle": false,
         "main": "apps/web-server/src/main.ts",
         "tsConfig": "apps/web-server/tsconfig.app.json",
-        "assets": [
-          "apps/web-server/src/assets"
-        ],
+        "assets": ["apps/web-server/src/assets"],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,

@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev-run": "ts-node -r source-map-support/register src/main.ts"
+  }
+}
