@@ -2,12 +2,11 @@
   "name": "@stitch-it/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "19.0.2",
     "@nx/workspace": "19.0.2",
     "nx": "19.0.2"
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }
